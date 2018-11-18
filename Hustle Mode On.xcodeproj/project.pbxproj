@@ -14,6 +14,7 @@
 		7889717021A1ACD3003EC65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7889716E21A1ACD3003EC65F /* LaunchScreen.storyboard */; };
 		7889717B21A1ACD3003EC65F /* Hustle_Mode_OnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889717A21A1ACD3003EC65F /* Hustle_Mode_OnTests.swift */; };
 		7889718621A1ACD4003EC65F /* Hustle_Mode_OnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889718521A1ACD4003EC65F /* Hustle_Mode_OnUITests.swift */; };
+		7889719421A1AE21003EC65F /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7889719321A1AE21003EC65F /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7889718121A1ACD4003EC65F /* Hustle Mode OnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hustle Mode OnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7889718521A1ACD4003EC65F /* Hustle_Mode_OnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hustle_Mode_OnUITests.swift; sourceTree = "<group>"; };
 		7889718721A1ACD4003EC65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7889719321A1AE21003EC65F /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		7889716421A1ACD2003EC65F /* Hustle Mode On */ = {
 			isa = PBXGroup;
 			children = (
+				7889719321A1AE21003EC65F /* hustle-on.wav */,
 				7889716521A1ACD2003EC65F /* AppDelegate.swift */,
 				7889716721A1ACD2003EC65F /* ViewController.swift */,
 				7889716921A1ACD2003EC65F /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7889719421A1AE21003EC65F /* hustle-on.wav in Resources */,
 				7889717021A1ACD3003EC65F /* LaunchScreen.storyboard in Resources */,
 				7889716D21A1ACD3003EC65F /* Assets.xcassets in Resources */,
 				7889716B21A1ACD2003EC65F /* Main.storyboard in Resources */,
