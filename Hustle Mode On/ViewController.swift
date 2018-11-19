@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func hustleOffPressed(_ sender: Any) {
-        
+        onLbl.text = "OFF"
         UIView.animate(withDuration: 2.3, animations: {
             self.rocket.frame = CGRect(x: 0, y: 500, width: 375, height: 142)
             self.player.play()
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         cloudHolder.isHidden = false
         darkBlueBG.isHidden = true
         powerBtn.isHidden = true
-        
+        onLbl.text = "ON"
         
         player.play()
         
